@@ -166,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //feedbacks
             GestureDetector(
               onTap: () {
-                _launchURL(Uri.parse('https://wa.me/2348112006431'));
+                _launchURL(Uri.parse('https://twitter.com/AdedejiIdrisAy1'));
               },
               child: ListTile(
                 title: Text('Feedbacks'),
@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //github source code
             GestureDetector(
               onTap: () {
-                _launchURL(Uri.parse('https://github.com/Heebu'));
+                _launchURL(Uri.parse('https://github.com/Heebu/quran_app'));
               },
               child: ListTile(
                 title: Text('Github'),
